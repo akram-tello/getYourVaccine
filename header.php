@@ -27,8 +27,7 @@
             <div class="col-lg-9 col-xs-8 col-sm-12 header-sgnin">
                 <div class="signin">
                     <ul>
-						<li ><a href = "check.php">Check</a></li>
-						<li onclick="mysigninFunction()" data-toggle="modal" class="log-index" data-target="#myModal">Sign in</li>
+						<li ><a href = "check.php"><img src="assets/images/home/2.png" />Check</a></li>
 						<li ><a href = "register.php"><img src="assets/images/home/1.png" />Regiester</a></li>
 					</ul>
                 </div>

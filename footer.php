@@ -10,19 +10,19 @@
             </div>
             <div class="col-lg-4">
                 <div class="feature-inner hvr-shrink">
-                    <img src="assets/images/home/f1.png"  class="img-responsive" alt=""/>
+                    <img src="assets/images/home/f1.png" style="max-width: 75px;" class="img-responsive" alt=""/>
                     <h4>LATEST INFORMATION HERE!</h4>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-inner hvr-shrink">
-                    <img src="assets/images/home/f2.png" class="img-responsive" alt=""/>
+                    <img src="assets/images/home/f2.png" style="max-width: 75px;" class="img-responsive" alt=""/>
                     <h4>Have you registered? If not, do register now to protect yourself and your loved ones.</h4>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="feature-inner hvr-shrink">
-                    <img src="assets/images/home/f3.png" class="img-responsive" alt=""/>
+                    <img src="assets/images/home/f3.png" style="max-width: 75px;" class="img-responsive" alt=""/>
                     <h4>See ;atest news about Covid-19</h4>
                 </div>
             </div>

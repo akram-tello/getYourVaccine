@@ -45,7 +45,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav nav-head animated fadeInDown">
                         <li class="active m-1"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
-                        <li><a href = "aboutus.php">About JKJAV</a></li>
+                        <li><a href = "aboutus.php">About the vaccine</a></li>
 						<li><a href = "faq.php">FAQ </a></li>
                         <li><a href = "contact.php">Contact </a></li>
                     </ul>

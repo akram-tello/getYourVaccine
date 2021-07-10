@@ -5,7 +5,7 @@ include("header.php");
 <body onload="initialize()"><!--about-main-->
 <div class="container">
     <div class="about-main">
-      <h1>About JKJAV</h1>
+      <h1>About the vaccine</h1>
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">

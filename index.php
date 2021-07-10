@@ -10,7 +10,7 @@ include("header.php");
                     <h2>LINDUNG DIRI,</h2>
                     <h2 style="color: #fff;">LINDUNG SEMUA.</h2>
                     <p style="color: #fff;">Have you registered? If not, do register now to protect yourself and your loved ones</p>																																																								</p>
-                    <button type="button" class="btn btn-success mt-4 bggreen bordergreen fontb" onclick="window.location='/register.php/'">REGISTER NOW</button>
+                    <a href = "register.php" class="btn btn-success mt-4 fontb">REGISTER NOW</a>
                     <div class="scroll">
                         <img class="hvr-grow" src="assets/images/home/avatar_landing_animated.svg" style="max-width:20em" alt=""/>
                     </div>

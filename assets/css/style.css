@@ -135,13 +135,6 @@ color: #565656;
     margin: 0 0 30px 0;
     width: 33%;
 }
-.banner a {
-    color: #3CB64C;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: italic;
-}
 
 .banner-text {
    position: relative;

@@ -1,5 +1,5 @@
 <?php
-include("header.php");
+include("layout/header.php");
 ?>
 <body onload="initialize()">	<!--contact-main-->
 <div class="container-fluid contact-banner">
@@ -57,4 +57,4 @@ include("header.php");
 </div>
 <!--contact-main-->
 <!--footer-->
-  <?php include("footer.php"); ?>
+  <?php include("layout/footer.php"); ?>

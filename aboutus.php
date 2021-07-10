@@ -1,5 +1,5 @@
 <?php 
-include("header.php");
+include("layout/header.php");
 ?>
 
 <body onload="initialize()"><!--about-main-->
@@ -40,5 +40,6 @@ JKJAV also plays an important role as the Main Committee in planning, implementi
 </div>
 </div>
 <div class="clearfix"></div>
-<!--about-main--><!--footer-->
-<?php include("footer.php"); ?>
+
+<!--footer-->
+<?php include("layout/footer.php"); ?>

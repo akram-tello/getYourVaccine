@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("layout/header.php"); ?>
 <form>
 <div class="container">
 <div class="col-12">
@@ -123,9 +123,9 @@
     <label class="form-check-label textblue" for="declare">*I hereby declare that the information provided is true and correct</label>
   </div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" style="margin-bottom: 20px;">Submit</button>
 
 </form>
 </div> 
 <!--footer-->
-<?php include("footer.php"); ?>
+<?php include("layout/footer.php"); ?>

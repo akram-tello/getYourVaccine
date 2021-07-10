@@ -5,14 +5,14 @@
 	<title>getYourVaccine</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>	
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">    
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css">    
 	<link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link rel="stylesheet" href="assets/css/hover-min.css"> 
+	<link rel="stylesheet" href="../assets/css/animate.css">
+	<link rel="stylesheet" href="../assets/css/hover-min.css"> 
 <!--common-head-css -->
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/responsive.css">
 
 		<body class="hold-transition  sidebar-mini">
 			<div class="wrapper">
@@ -27,8 +27,8 @@
             <div class="col-lg-9 col-xs-8 col-sm-12 header-sgnin">
                 <div class="signin">
                     <ul>
-						<li ><a href = "check.php"><img src="assets/images/home/2.png" />Check</a></li>
-						<li ><a href = "register.php"><img src="assets/images/home/1.png" />Regiester</a></li>
+						<li ><a href = "check.php"><img src="../assets/images/home/2.png" />Check</a></li>
+						<li ><a href = "register.php"><img src="../assets/images/home/1.png" />Regiester</a></li>
 					</ul>
                 </div>
                 <div class="clearfix hidden-xs"></div>

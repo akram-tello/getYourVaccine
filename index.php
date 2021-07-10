@@ -1,5 +1,5 @@
 <?php
-include("header.php");
+include("layout/header.php");
 ?>
 <body onload="initialize()"><!--banner-section-->
 <div class="container-fluid">
@@ -34,4 +34,4 @@ include("header.php");
     </div>
 
 </div>
-<?php include("footer.php"); ?>
+<?php include("layout/footer.php"); ?>

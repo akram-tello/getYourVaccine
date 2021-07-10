@@ -41,11 +41,8 @@
         </div>
     </div>
 </footer>
-
-<!--footer-->
-<a href="#" id="back-to-top" title="Back to top"><img src="assets/images/home/btp.png"></a>    
-			</div>
-					<script> base_url = "index.php"; </script>
+</div>
+<script> base_url = "index.php"; </script>
 <!-- jQuery 2.1.4 -->
     <script src="assets/js/jquery.js"></script>
 	<script src="assets/js/jquery-1.9.1.min.js"></script>

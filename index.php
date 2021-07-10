@@ -1,6 +1,5 @@
 <?php
 include("header.php");
-// include("find.php");
 ?>
 <body onload="initialize()"><!--banner-section-->
 <div class="container-fluid">

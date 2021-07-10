@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 	<title>getYourVaccine</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="admin/uploads/common/1493899510_fav__icon.png" type="image/jpg" sizes="16x16">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>	
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">    
@@ -28,9 +27,9 @@
             <div class="col-lg-9 col-xs-8 col-sm-12 header-sgnin">
                 <div class="signin">
                     <ul>
-						<li ><a href = "rigister.php">Check</a></li>
+						<li ><a href = "check.php">Check</a></li>
 						<li onclick="mysigninFunction()" data-toggle="modal" class="log-index" data-target="#myModal">Sign in</li>
-						<li ><a href = "check.php"><img src="assets/images/home/1.png" />Rigiester</a></li>
+						<li ><a href = "register.php"><img src="assets/images/home/1.png" />Regiester</a></li>
 					</ul>
                 </div>
                 <div class="clearfix hidden-xs"></div>

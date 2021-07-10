@@ -433,3 +433,36 @@ float: left;
 .bgblue {
     background-color: #29255f;
 }
+.size200 {
+    font-size: 200%;
+    line-height: 100%;
+}
+.textgreen {
+    color: #3cb64c;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.fontb {
+    font-weight: 700;
+}
+.size160 {
+    font-size: 160%;
+    line-height: 110%;
+}
+.textblue {
+    color: #29255f;
+}
+.font500 {
+    font-weight: 500;
+}
+.size120 {
+    font-size: 120%;
+    line-height: 100%;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem !important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}

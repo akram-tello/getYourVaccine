@@ -1,4 +1,7 @@
-<?php include("header.php"); ?>
+<?php 
+   session_start();
+   if (!isset($_SESSION['ic']) && !isset($_SESSION['id'])) {   ?>
+<?php include("layout/header.php"); ?>
 <form>
 <div class="container">
 <div class="col-12">
@@ -25,23 +28,40 @@
         <div class="textblue size100 font500 mt-3 mb-5">
             Please key in your identity card (MyKad) OR passport number AND your registered telephone number to check your vaccination appointment.
         </div>
-        <div class="form-group mt-4">
-            <label class="form-title fontb textblue size100" for="ic-number">MyKad No. / Passport No.*</label>
-            <input type="text" name="ic_number" id="ic-number" class="form-control" placeholder="Write your IC / Passport No. here" maxlength="50">
-            <div class="ic-number">
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label class="form-title fontb textblue size100" for="phone-number">Telephone No.*</label>
-            <input type="text" name="phone_number" id="phone-number" class="form-control" placeholder="Write your phone number here" maxlength="50">
-            <div class="phone-number">
-            </div>
-        </div>
+        <form class="border shadow p-3 rounded"
+      	      action="server/checkLogin.php" 
+      	      method="post" 
+      	      style="width: 450px;">
+      	      <?php if (isset($_GET['error'])) { ?>
+      	      <div class="alert alert-danger" role="alert">
+				  <?=$_GET['error']?>
+			  </div>
+			  <?php } ?>
+		  <div class="mt-5">
+		    <label for="username" 
+		           class="form-label textblue">MyKad No. / Passport No. <span style="color:red; font-weight:900; font-size:20px;">*</span></label>
+		    <input type="text" 
+		           class="form-control" 
+                   placeholder="Write your IC / Passport No. here"
+		           name="ic" 
+		           id="ic">
+		  </div>
+		  <div class="mt-5">
+		    <label for="password" 
+		           class="form-label textblue">Telephone No. <span style="color:red; font-weight:900; font-size:20px;">*</span></label>
+		    <input type="number" 
+		           name="tel" 
+                   placeholder="Write your phone number here"
+		           class="form-control" 
+		           id="tel">
+		  </div>
 
         <div class="mt-5 p-4 textblue btn-submit text-center">
-                <input class="btn btn-block btn-success bggreen bordergreen fontb" type="submit" name="submit" value="LOGIN" id="btn-submit" alt="Submit Button">
+                <input class="btn btn-block btn-success bggreen bordergreen fontb" type="submit" name="submit" value="LOGIN" alt="Submit Button">
         </div>
     </div>
 </div>
 
+<?php }else{
+	header("Location: error.php");
+} ?>

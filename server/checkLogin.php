@@ -29,7 +29,7 @@ if (isset($_POST['ic']) && isset($_POST['tel'])) {
         		$_SESSION['id'] = $row['id'];
         		$_SESSION['ic'] = $row['ic'];
 
-        		header("Location: ../welcome.php");
+        		header("Location: ../status.php");
 
         	}else {
         		header("Location: ../check.php?error=Incorect IC or telephone");

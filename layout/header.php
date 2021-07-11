@@ -49,6 +49,7 @@
                                 <li class="active m-1"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                                 <li><a href="aboutus.php">About the vaccine</a></li>
                                 <li><a href="contact.php">Contact </a></li>
+                                <li><a href="applications.php">Applications </a></li>
                             </ul>
                         </div>
                     </div>

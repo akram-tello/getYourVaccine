@@ -462,3 +462,41 @@ float: left;
 .mb-5{
     margin-bottom: 3rem !important;
 }
+
+/*error page*/
+.f-f4 h1 {
+    text-align: center;
+    margin: 0;
+}
+.f-f4 h2 {
+    text-align: center;
+    color: #585858;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.f-f4 h2 span {
+    font-size: 39px;
+}
+.f-f4 h3 {
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.f-f4 h4 {
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.f-f4 h4 a {
+    color: #a01f62;
+    font-weight: bold;
+}
+.f-f4 {
+    padding: 65px 0 0 0;
+}
